@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.bootcss.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            ul,ol{
+                list-style: none;
+            }
+            .cp1{
+                width: 50%;
+                float: left;
+            }
+            .cp2{
+                width: 50%;
+                float: left;
+            }
+            body{
+                font-size: .14rem;
+                font-family: 宋体;
+            }
+            header{
+                text-align: center;
+            }
+            header h4{
+                display: inline-block;
+            }
+            header h1{
+                display: inline-block;
+            }
+            table{
+                font-size: 16px;
+                text-align: center;
+            }
+            table tr td ul li{
+                width: 20%;
+                float: left;
+            }
+            .bei{
+                width: 100%;
+                height: 400px;
+                border: 1px solid #ccc;
+                margin-top: -18px;
+                border-top: none;
+                font-size: 16px;
+                position: relative;
+
+            }
+            .bei>p{
+                position: absolute;
+                left: 75px;
+                top: 22px;
+            }
+            .bei-1{
+
+            width: 300px;
+            height: 150px;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            }
+            .bei-2{
+                /*width: 560px;*/
+                height: 250px;
+                position: absolute;
+                right: 100px;
+                top: 22px;
+            }
+            .bei div ul li{
+                width: 29%;
+                float: right;
+            }
+            .a{
+            margin-left: 94px;
+            }
+    </style>
+</head>
+<body>
+<div class="cp1">
+<div class="container">
+    <header>
+        <h2>河南省荣阳市人民法院</h2>
+        <h1>传&nbsp票</h1><h4>(存根)</h4>
+    </header>
+    <table class="table table-bordered">
+        <tr>
+            <td>案&nbsp&nbsp号</td>
+            <td>（20   ）豫0182&nbsp&nbsp&nbsp&nbsp号</td>
+        </tr>
+        <tr>
+            <td>案&nbsp&nbsp由</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>被传唤人</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>住&nbsp&nbsp所</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>传唤是由</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>应到时间</td>
+            <td>
+                <ul>
+                <li>年</li>
+                <li>月</li>
+                <li>日</li>
+                <li>时</li>
+                <li>分</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>应到处所</td>
+            <td></td>
+        </tr>
+    </table>
+    <div class="bei">
+        <p>备&nbsp考：</p>
+        <div class="bei-1">
+            <p>审&nbsp判&nbsp员</p>
+            <p>书&nbsp记&nbsp员</p>
+            <ul>
+                <li>日</li>
+                <li>月</li>
+                <li>年</li>
+            </ul>
+            <br>
+            <p class="a">( 院&nbsp印 )</p>
+        </div>
+
+    </div>
+</div>
+</div>
+<div class="cp2">
+    <div class="container">
+        <header>
+            <h2>河南省荣阳市人民法院</h2>
+            <h1>传&nbsp票</h1>
+        </header>
+        <table class="table table-bordered">
+            <tr>
+                <td>案&nbsp&nbsp号</td>
+                <td>（20   ）豫0182&nbsp&nbsp&nbsp&nbsp号</td>
+            </tr>
+            <tr>
+                <td>案&nbsp&nbsp由</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>被传唤人</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>住&nbsp&nbsp所</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>传唤是由</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>应到时间</td>
+                <td>
+                    <ul>
+                        <li>年</li>
+                        <li>月</li>
+                        <li>日</li>
+                        <li>时</li>
+                        <li>分</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>应到处所</td>
+                <td></td>
+            </tr>
+        </table>
+        <div class="bei">
+            <p>注意事项：</p>
+            <div class="bei-2">
+                <ol>
+                    <li>1、被传唤人必须准时到达应到处所；</li>
+                    <li>2、本传票由被传唤人携带来院报道；</li>
+                    <li>3、被传唤人收到传票后，应在送达回证上签名或者盖章。</li>
+                    <li>4、联系电话:</li>
+                </ol>
+            </div>
+            <div class="bei-1">
+                <p>审&nbsp判&nbsp员</p>
+                <p>书&nbsp记&nbsp员</p>
+                <ul>
+                    <li>日</li>
+                    <li>月</li>
+                    <li>年</li>
+                </ul>
+                <br>
+                <p class="a">( 院&nbsp印 )</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+
+<script>
+    // 自适应大小
+    // (function () {
+    //     var supportsOrientationChange = 'onorientationchange' in window ? 'orientationchange' : 'resize';
+    //     var clientWidth = document.documentElement.clientWidth;
+    //     var timer;
+    //     function setRem() {
+    //         clientWidth = document.documentElement.clientWidth;
+    //         var nowPX = clientWidth / 1920 * 100;
+    //         document.documentElement.style.fontSize = nowPX + 'px';
+    //     }
+    //     clientWidth !== 1920 && setRem();
+    //     window.addEventListener(supportsOrientationChange, function () {
+    //         clearTimeout(timer);
+    //         timer = setTimeout(function () {
+    //             setRem();
+    //         }, 300);
+    //     }, false);
+    // })();
+</script>
+</html>
